@@ -1,3 +1,4 @@
+bash <(curl -Ls https://raw.githubusercontent.com/czjesda/v2ray-ws-tls/master/vless_tcp_xtls.sh)
 
 1、使用SSH工具连接VPS，执行下列命令，选择安装v2ray+ws+tls
 
