@@ -218,7 +218,7 @@ install_v2ray(){
     loggreen "$(date +"%Y-%m-%d %H:%M:%S") ==== 安装v2ray"
     mkdir /usr/local/etc/v2ray/
     mkdir /usr/local/etc/v2ray/cert
-    logcmd "bash <(curl -L -s https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)"
+    logcmd "bash <(curl -L -s https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh) --version 4.32.1"
     cd /usr/local/etc/v2ray/
     rm -f config.json
     v2uuid=$(cat /proc/sys/kernel/random/uuid)
